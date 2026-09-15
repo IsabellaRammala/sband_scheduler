@@ -736,8 +736,8 @@ def main(config, output_file):
         template = json.load(json_handle)
 
     template['activities'] = []
-    template['owner'] = 'Vishnu Balakrishnan'
-    template['owner_email'] = 'vishnubk93@gmail.com'
+    template['owner'] = 'Isabella Rammala'
+    template['owner_email'] = 'irammala@mpifr-bonn.mpg.de'
     template['id'] = 0
     counter = 1
     prefix = datetime.datetime.today().strftime('%Y%m%d') + '_'
